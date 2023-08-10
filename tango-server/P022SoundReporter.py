@@ -168,7 +168,7 @@ class SpeeckWorker(threading.Thread):
 
     def __init__(self, playcmd: str, qmsg: queue.Queue, parent):
         super(SpeeckWorker, self).__init__()
-        self.setDaemon(True)
+        self.daemon = True
 
         # stop queue
         self._qstop = queue.Queue()
