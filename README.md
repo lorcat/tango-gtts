@@ -28,7 +28,7 @@ _["/usr/bin/vlc", "--intf=dummy"]_
 ## Commands
 - __Speak__
 
-    Adds a text to a processing queue. If an mp3 file found which matches the text, it will be played. 
-Otherwise, the server performs an attempt to use google text to speech and saves the resulting mp3 file to be played later.
+    Adds a text to a processing queue. If a mp3 file found which matches the text, it will be played. 
+Otherwise, the server performs an attempt to use Google text to speech and saves the resulting mp3 file to be played later.
 The processing queue is triggered by a separate thread which may combine several speech requests into a single playlist
 if the sound playing program supports it (e.g. vlc  - so far only vlc is considered as playlist compatible in the code).
