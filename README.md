@@ -8,6 +8,8 @@ Should be working on both - windows and linux.
 
 In order to ensure the correct operation of the Google Text-to-Speech, please make sure to run code with correctly set `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
 
+One can also add a custom file into the voice directory, e.g. would you like a `Bankai!` for a beam dump?
+
 ## Properties of Tango server
 - __cmdplay__
     
