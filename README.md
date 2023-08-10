@@ -1,10 +1,12 @@
 # tango-gtts (aka P022SoundReporter)
-Simple tango server for playing sound from text input.
+Simple tango server (python) for playing sound from text input.
 
 The main purpose to notify an operating user of macro steps or failures.
 
 Uses Google Text-to-Speech interface to download a file if a matching mp3 is not found locally.
 Should be working on both - windows and linux.
+
+In order to ensure the correct operation of the Google Text-to-Speech, please make sure to run code with correctly set `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
 
 ## Properties of Tango server
 - __cmdplay__
