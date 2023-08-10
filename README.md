@@ -10,6 +10,8 @@ In order to ensure the correct operation of the Google Text-to-Speech, please ma
 
 One can also add a custom file into the voice directory, e.g. would you like a `Bankai!` for a beam dump?
 
+The file was made with `pogo` of `Tango Controls`, the modification of the server is possible and encouraged.
+
 ## Properties of Tango server
 - __cmdplay__
     
